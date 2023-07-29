@@ -1,4 +1,4 @@
-name: Extract Gutenberg data
+name: CSV to GeoJSON file.
 
 on:
   workflow_dispatch:
