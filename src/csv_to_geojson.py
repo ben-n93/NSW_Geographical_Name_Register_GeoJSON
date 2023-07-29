@@ -4,11 +4,11 @@ import requests
 
 # Downlodad CSV file.
 response = requests.get("https://dcok8xuap4.execute-api.ap-southeast-2.amazonaws.com/prod/public/placenames/geonames/download", timeout=60)
-with open("../data/input.csv", 'wb') as f:
+with open("data/input.csv", 'wb') as f:
             f.write(response.content)
 
 # Create GeoJSON file.
-df = pd.read_csv('../data/input.csv',
+df = pd.read_csv('data/input.csv',
     skiprows=4,
     dtype={
     'REFERENCE': str,
@@ -63,5 +63,5 @@ for index, row in df.iterrows():
 
 # Write GeoJSON file.
 feature_collection = geojson.FeatureCollection(features)
-with open("../data/output.geojson", "w", encoding="utf-8") as f:
+with open("data/output.geojson", "w", encoding="utf-8") as f:
     geojson.dump(feature_collection, f)
