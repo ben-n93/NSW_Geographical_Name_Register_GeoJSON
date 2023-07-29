@@ -20,7 +20,7 @@ jobs:
     - name: Install packages
       run: |
         python -m pip install --upgrade pip
-        pip install requests, pandas, geojson
+        pip install requests pandas geojson
     - name: Execute Python file.
       run: |
           python src/csv_to_geojson.py
