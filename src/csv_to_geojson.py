@@ -38,7 +38,7 @@ df = pd.read_csv('data/input.csv',
 features = []
 for index, row in df.iterrows():
     if pd.isna(df.at[index, 'GDA2020 LAT']):
-        coordinates = geojson.Point(0, 0)
+        coordinates = geojson.Point((0, 0))
     else:
         coordinates = geojson.Point((row['GDA2020 LONG'], row['GDA2020 LAT']))
 
