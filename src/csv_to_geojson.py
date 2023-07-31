@@ -2,7 +2,7 @@ import pandas as pd
 import geojson
 import requests
 
-# Downlodad CSV file.
+# Download CSV file.
 response = requests.get("https://dcok8xuap4.execute-api.ap-southeast-2.amazonaws.com/prod/public/placenames/geonames/download", timeout=60)
 with open("data/input.csv", 'wb') as f:
             f.write(response.content)
