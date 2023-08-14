@@ -6,6 +6,10 @@ They very helpfully offer a [CSV file](https://proposals.gnb.nsw.gov.au/public/g
 
 I thought it would be of use to data analysts/scientists/journalists/developers to have a GeoJSON file from this data so I've created this repo. Every day my script downloads the CSV file and outputs it to a GeoJSON file (which you can find in the data directory).
 
+## Data integrity 
+
+It's worth noting that some of the coordinates might not be accurate as some were recorded at various times last century and so due to tectonic plate movement and other factors it's possible some of the coordinates aren't as accurate as they were when orginally recorded. I'm no geographer though!
+
 ### Acknowledgements
 
 I have to shout out the brilliant [GeoJSON package](https://github.com/jazzband/geojson)!
