@@ -1,3 +1,8 @@
+""" 
+This script downloads the NSW Geographic Name Register and
+creates a GeoJSON file.
+"""
+
 import pandas as pd
 import geojson
 import requests
