@@ -1,3 +1,5 @@
+![](https://github.com/ben-n93/NSW_Geographical_Name_Register_GeoJSON/actions/workflows/csv_to_geojson.yml/badge.svg)
+
 # NSW Geographical Name Register - GeoJSON file
 
 The [NSW Geographical Names Board](https://www.gnb.nsw.gov.au/) is a government body responsible for the management and administration of geographic place names within the state of New South Wales, Australia.
