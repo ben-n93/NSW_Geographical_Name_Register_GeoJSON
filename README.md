@@ -6,7 +6,7 @@ The [NSW Geographical Names Board](https://www.gnb.nsw.gov.au/) is a government 
 
 They very helpfully offer a [CSV file](https://proposals.gnb.nsw.gov.au/public/geonames/search) with all record information from their Geographical Name Register. 
 
-I thought it would be of use to data analysts/scientists/journalists/developers to have a GeoJSON file from this data so I've created this repo. Every day my script downloads the CSV file and outputs it to a GeoJSON file (which you can find in the data directory).
+I thought it would be of use to data people (analysts, scientists, etc) to have a GeoJSON file from this data so I've created this repo. Every day my script downloads the CSV file and outputs it to a GeoJSON file (which you can find in the data directory).
 
 ## Data integrity 
 
