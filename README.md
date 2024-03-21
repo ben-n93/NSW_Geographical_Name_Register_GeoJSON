@@ -10,7 +10,7 @@ I thought it would be of use to data analysts/scientists/journalists/developers 
 
 ## Data integrity 
 
-It's worth noting that some of the coordinates might not be accurate as some were recorded at various times last century and so due to tectonic plate movement and other factors it's possible some of the coordinates aren't as accurate as they were when orginally recorded. I'm no geographer though!
+It's worth noting that some of the coordinates might not be accurate as some were recorded at various times last century and so due to geographical changes it's possible some of the coordinates aren't as accurate as they were when orginally recorded. I'm no geographer though!
 
 ### Acknowledgements
 
