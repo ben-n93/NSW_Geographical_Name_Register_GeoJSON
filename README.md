@@ -12,10 +12,10 @@ I thought it would be of use to data people (analysts, scientists, etc) to have 
 
 It's worth noting that some of the coordinates might not be accurate as some were recorded at various times last century and so due to geographical changes it's possible some of the coordinates aren't as accurate as they were when orginally recorded. I'm no geographer though!
 
-### Acknowledgements
+## Acknowledgements
 
 I have to shout out the brilliant [GeoJSON package](https://github.com/jazzband/geojson)!
 
-### Contact
+## Contact
 
 If you have any questions or feedback please reach out to at <hello@ben-nour.com>.
