@@ -1,4 +1,4 @@
-name: CSV to GeoJSON file.
+name: build 
 
 on:
   workflow_dispatch:
